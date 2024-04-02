@@ -26,6 +26,8 @@ public class TCPServer {
                     Client client = new Client( clientSocket.getInetAddress().getHostName() );
                     clients.add(client);
                     System.out.println("Cliente aceito " + client);
+
+
                 }
 
                 ;
